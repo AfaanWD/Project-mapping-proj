@@ -17,10 +17,10 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    /* Primary: Deep purple for professional look */
-    --primary: 262 83% 58%;
+    /* Primary: Modern purple-blue */
+    --primary: 250 84% 54%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 262 83% 52%;
+    --primary-hover: 250 84% 48%;
 
     /* Secondary: Soft purple-gray */
     --secondary: 240 6% 96%;
@@ -30,8 +30,8 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --muted: 240 5% 96%;
     --muted-foreground: 240 4% 46%;
 
-    /* Accent: Orange from gradient */
-    --accent: 25 95% 65%;
+    /* Accent: Vibrant orange */
+    --accent: 20 90% 60%;
     --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
@@ -43,10 +43,10 @@ All colors MUST be HSL. Inspired by modern gradient designs.
 
     --radius: 0.75rem;
 
-    /* Custom gradient colors */
-    --gradient-start: 262 83% 58%;    /* Deep purple */
-    --gradient-middle: 280 100% 70%;  /* Purple-pink */
-    --gradient-end: 25 95% 65%;       /* Orange */
+    /* Custom gradient colors - inspired by modern design */
+    --gradient-start: 240 100% 27%;   /* Deep blue */
+    --gradient-middle: 250 84% 54%;   /* Purple-blue */
+    --gradient-end: 20 90% 60%;       /* Orange */
 
     /* Success and warning colors */
     --success: 142 76% 36%;
@@ -55,10 +55,10 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --warning-foreground: 240 10% 3.9%;
 
     /* Professional chart colors */ 
-    --chart-1: 262 83% 58%;
-    --chart-2: 25 95% 65%;
+    --chart-1: 250 84% 54%;
+    --chart-2: 20 90% 60%;
     --chart-3: 142 76% 36%;
-    --chart-4: 280 100% 70%;
+    --chart-4: 270 91% 65%;
     --chart-5: 48 96% 53%;
 
     --sidebar-background: 0 0% 98%;
@@ -88,9 +88,9 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --popover: 240 10% 4%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 262 83% 58%;
+    --primary: 250 84% 54%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 262 83% 52%;
+    --primary-hover: 250 84% 48%;
 
     --secondary: 240 4% 16%;
     --secondary-foreground: 0 0% 98%;
@@ -98,7 +98,7 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --muted: 240 4% 16%;
     --muted-foreground: 240 5% 65%;
 
-    --accent: 25 95% 65%;
+    --accent: 20 90% 60%;
     --accent-foreground: 240 10% 4%;
 
     --destructive: 0 62.8% 30.6%;
@@ -109,19 +109,19 @@ All colors MUST be HSL. Inspired by modern gradient designs.
     --ring: 262 83% 58%;
 
     /* Dark mode gradients */
-    --gradient-start: 262 83% 58%;
-    --gradient-middle: 280 100% 70%;
-    --gradient-end: 25 95% 65%;
+    --gradient-start: 240 100% 27%;
+    --gradient-middle: 250 84% 54%;
+    --gradient-end: 20 90% 60%;
 
     --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
     --warning: 48 96% 53%;
     --warning-foreground: 240 10% 4%;
 
-    --chart-1: 262 83% 58%;
-    --chart-2: 25 95% 65%;
+    --chart-1: 250 84% 54%;
+    --chart-2: 20 90% 60%;
     --chart-3: 142 76% 36%;
-    --chart-4: 280 100% 70%;
+    --chart-4: 270 91% 65%;
     --chart-5: 48 96% 53%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;

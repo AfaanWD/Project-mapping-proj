@@ -66,7 +66,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
-                className="text-5xl lg:text-6xl font-bold text-foreground leading-tight"
+                className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground leading-tight"
               >
                 AI-Driven Talent Management for{' '}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -78,7 +78,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
-                className="text-xl text-muted-foreground leading-relaxed max-w-2xl"
+                className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-2xl"
               >
                 Intelligently allocate talent to projects with AI-powered matching, real-time conflict resolution, and dynamic resource optimization. Transform your project management with data-driven insights.
               </motion.p>

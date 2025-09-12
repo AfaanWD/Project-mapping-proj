@@ -22,11 +22,16 @@ const Navigation = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 hover-lift">
-            <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-              <Brain className="w-5 h-5 text-white" />
+          <Link to="/" className="flex items-center space-x-3 hover-lift group">
+            <div className="relative">
+              <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300">
+                <div className="w-6 h-6 rounded-md bg-white/20 backdrop-blur-sm flex items-center justify-center">
+                  <div className="w-3 h-3 rounded-sm bg-white"></div>
+                </div>
+              </div>
+              <div className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-accent animate-pulse"></div>
             </div>
-            <span className="text-xl font-bold text-foreground">TalentSync</span>
+            <span className="text-xl font-bold text-foreground tracking-tight">TalentSync</span>
           </Link>
 
           {/* Desktop Navigation */}
